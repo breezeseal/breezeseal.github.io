@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Rubik Beastly", cursive;
+}
+
+.section {
+  width: 100vw; /* 100% == 100vw vieport width */
+  max-width: 100%; /* hack for 100vw */
+  height: 100vh; /* VH = viewport height */
+  padding-top: 100px;
+}
+
+.section-about {
+  background-color: rgb(0, 0, 0);
+  height: 120vh; /* VH = viewport height */
+}
+.section-portfolio {
+  background-color: rgb(224, 224, 224);
+}
+.section-contacts {
+  background-color: rgb(255, 0, 242);
+}
+
+.header {
+  background-color: rgb(255, 0, 242);
+
+  position: fixed;
+  width: 60px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .wrapper,
+.section .wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu p {
+  width: 100%;
+}
+
+.menu a {
+  color: white;
+  font-size: 20px;
+  line-height: 60px;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+.menu a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery--item {
+  width: 32%;
+}
+.gallery--item img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  color: white;
+  font-size: 75px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.text {
+  padding-left: 150px;
+}
+h2 {
+  font-size: 70px;
+}
+.text p {
+  font-size: 19px;
+}
+
+.portfolio {
+  font-size: 60px;
+  font-family: "Press Start 2P", cursive;
+  color: black;
+}
+
+.contacts {
+  font-size: 60px;
+  font-family: "Press Start 2P", cursive;
+  color: rgb(255, 255, 255);
+}
+.email {
+  display: flex;
+  color: white;
+}
+.left {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+}
+
+.left p {
+  margin: 60px 15px 60px 0px;
+}
+
+.right {
+  padding-left: 50px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0px;
+}
+.together {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0px;
+}
