@@ -171,3 +171,13 @@ h2 {
 .hello {
   padding-left: 50px;
 }
+.lets-contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(255, 0, 242);
+  text-align: center;
+}
+.line {
+  background-color: rgb(255, 255, 255);
+}
