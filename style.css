@@ -20,13 +20,17 @@ body {
 
 .section-about {
   background-color: rgb(0, 0, 0);
-  height: 120vh; /* VH = viewport height */
 }
 .section-portfolio {
   background-color: rgb(224, 224, 224);
 }
 .section-contacts {
   background-color: rgb(255, 0, 242);
+  height: 92vh; /* VH = viewport height */
+}
+
+.section-me {
+  background-color: rgb(0, 38, 255);
 }
 
 .header {
@@ -109,9 +113,7 @@ h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
-.text {
-  padding-left: 150px;
-}
+
 h2 {
   font-size: 70px;
 }
@@ -129,6 +131,7 @@ h2 {
   font-size: 60px;
   font-family: "Press Start 2P", cursive;
   color: rgb(255, 255, 255);
+  margin-top: 100px;
 }
 .email {
   display: flex;
@@ -155,4 +158,10 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   margin: 0px;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
 }
