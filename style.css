@@ -99,7 +99,7 @@ body {
 
 h1 {
   color: white;
-  font-size: 75px;
+  font-size: 150px;
   font-family: "Press Start 2P", cursive;
 }
 
@@ -167,4 +167,7 @@ h2 {
 }
 .my-photo {
   width: 55vh;
+}
+.hello {
+  padding-left: 50px;
 }
